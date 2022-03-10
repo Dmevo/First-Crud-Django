@@ -55,7 +55,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            "firstcrud/templates"
+            "firstcrud/templates",
         ],
         'APP_DIRS': True,
         'OPTIONS': {

@@ -18,5 +18,6 @@ from django.urls import path
 from firstcrud import views
 
 urlpatterns = [
-    path('crud/', views.index),
+    path('pessoas/', views.pessoas),
+    path('form/', views.form)
 ]
